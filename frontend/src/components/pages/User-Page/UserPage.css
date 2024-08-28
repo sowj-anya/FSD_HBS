@@ -1,0 +1,93 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar container */
+nav {
+    background-color: rgb(236, 206, 206); /* Dark grey background */
+    padding: 15px 30px; /* Padding around the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+/* Logo styling */
+.logo {
+    color: black; /* White text for the logo */
+    font-size: 26px; /* Larger font size for the logo */
+    font-weight: 700; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Letter spacing for readability */
+}
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+}
+/* Navbar list */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between items */
+}
+
+/* Navbar list items */
+nav ul li {
+    margin: 0;
+}
+
+/* Navbar links */
+nav ul li a {
+    color: black; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500; /* Medium font weight */
+    padding: 8px 15px; /* Padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Navbar link hover effects */
+nav ul li a:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #4a4a4a; /* Dark text on hover */
+}
+
+/* Navbar button styling */
+.nav-btn {
+    background-color: #82257b; /* Dark pink background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: 700; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    transition: background-color 0.3s; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor */
+}
+.nav-btn:hover {
+    background-color: #a02c9a; /* Lighter pink on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+    
+    nav ul {
+        flex-direction: column; /* Stack list items vertically */
+        width: 100%; /* Full width */
+    }
+    
+    nav ul li {
+        width: 100%; /* Full width for each item */
+        text-align: center; /* Center align text */
+    }
+    
+    .nav-btn {
+        width: 100%; /* Full width button */
+        text-align: center; /* Center align text */   
+    }
+}

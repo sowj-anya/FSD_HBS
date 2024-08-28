@@ -1,0 +1,127 @@
+.booking-container {
+    margin-left: 0;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    min-height: 85vh;
+    background: #fcf4fb;
+    padding: 0 100px;
+  }
+  
+  .booking-details {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-details h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .booking-form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .booking-form input[type="date"],
+  .booking-form input[type="time"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .availability-status {
+    margin-top: 1rem;
+  }
+  
+  .hall-details {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hall-details h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .hall-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .hall-info img {
+    width: 300px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+  }
+  
+  .hall-info div {
+    max-width: 500px;
+  }
+  
+  .hall-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hall-info p {
+    margin: 0.5rem 0;
+  }
+  
+  .capacity {
+    font-style: italic;
+  }
+  
+  .booking-history {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-history h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .booking-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .booking-history th,
+  .booking-history td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  .booking-history th {
+    background-color: #f4f4f4;
+  }
+  

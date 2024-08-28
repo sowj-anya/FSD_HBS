@@ -1,0 +1,117 @@
+   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+   .bgcolor {
+     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+     background-color: rgb(57, 54, 70) !important;
+     /* background: #fcf4fb; */
+   }
+   a {
+     text-decoration: none !important;
+   }
+   
+   .modal-content {
+     background-color: rgb(37, 35, 35) !important;
+   }
+   
+   label {
+     color: white !important;
+   }
+   
+   .NavBar {
+     background-color: rgb(255, 255, 255);
+   }
+   
+   .text-bold {
+     font-weight: 600 !important;
+   }
+   
+   .carasoul {
+     z-index: 1;
+     position: relative;
+   }
+   
+   .carasoulBody {
+     z-index: 1;
+     filter: brightness(0.3);
+   }
+   
+   .carasoulText {
+     z-index: 2;
+     position: absolute;
+     /* font-size: 8vw; */
+     filter: brightness(1);
+     color: white;
+     text-align: center;
+     width: 100%;
+     top: 50%;
+     transform: translateY(-50%);
+     font-family: 'Poppins', sans-serif;
+   }
+   
+   /* Responsive adjustments */
+   @media only screen and (min-width: 1024px) {
+     .carasoulText {
+       /* font-size: 4vw; */
+       font-size: 1vw;
+     }
+   }
+   
+   @media only screen and (min-width: 768px) and (max-width: 1023px) {
+     .carasoulText {
+       font-size: 1vw;
+       /* font-size: 6vw; */
+     }
+   }
+   
+   /* PARA SIZE while minimize*/
+   @media only screen and (min-width: 426px) and (max-width: 767px) {
+     .carasoulText {
+       font-size: 2vw;
+       /* font-size: 8vw; */
+     }
+   }
+   
+   @media only screen and (max-width: 425px) {
+     .carasoulText {
+       font-size: 10vw;
+     }
+   }
+   
+   /* Additional styles for other elements */
+   .Nav-Link.active {
+     background-color: chocolate;
+   }
+   
+   .Nav-Link {
+     list-style: none;
+   }
+   
+   .FrontNavBarItem {
+     color: firebrick !important;
+     list-style: none;
+   }
+   
+   /* UserAuth Register And Login */
+   .form {
+     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     width: 100%;
+     color: white;
+   }
+   
+   .Form-Box {
+     background-color: burlywood;
+     width: 80%;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 30px;
+   }
+   
+   /* ... (rest of the CSS remains unchanged) */
+   

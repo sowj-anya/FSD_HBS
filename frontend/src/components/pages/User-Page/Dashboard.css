@@ -1,0 +1,286 @@
+.dashboard-body {
+  display: flex;
+  padding: 20px;
+  background: #fcf4fb;
+}
+
+/* Search container styling */
+.search-container {
+  margin-bottom: 20px;
+}
+
+/* Search input styling */
+.search-input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color: #000 !important; /* Ensure text color is black */
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Filter container styling */
+.filter-container {
+  flex: 1;
+  margin-right: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter section styling */
+.filter-section {
+  margin-bottom: 30px;
+}
+
+/* Filter title styling */
+.filter-title {
+  margin-bottom: 15px;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: 600;
+  color: #333 !important; /* Ensure title color is black */
+  border-bottom: 2px solid #f2a900; /* Accent color for the underline */
+  padding-bottom: 10px;
+}
+
+/* Filter subtitle styling */
+.filter-subtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem; /* Adjust font size as needed */
+  font-weight: 500;
+  color: #444 !important; /* Ensure subtitle color is black */
+}
+
+/* Checkbox label styling */
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #333 !important; /* Ensure label color is black */
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #f2a900; /* Accent color for the checkbox */
+}
+
+/* Select component styling */
+.select-filter {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+/* Container styling */
+.container {
+  width: 75%;
+  max-width: 1200px;
+  padding: 20px;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #dee0e1;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Grid item styling */
+.grid-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure filter container and section styles */
+.filter-container {
+  flex: 1;
+  margin-right: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section {
+  margin-bottom: 30px;
+}
+
+.filter-title {
+  margin-bottom: 15px;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: 600;
+  color: #333 !important; /* Ensure title color is black */
+  border-bottom: 2px solid #f2a900; /* Accent color for the underline */
+  padding-bottom: 10px;
+}
+
+.filter-section label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #333 !important; /* Ensure label color is black */
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.filter-section input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #f2a900; /* Accent color for the checkbox */
+}
+
+
+.range-slider-container {
+  margin-top: 20px;
+}
+
+.range-slider-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.range-slider {
+  width: 100%;
+  margin: 0;
+  -webkit-appearance: none; /* For WebKit browsers (Chrome, Safari) */
+  appearance: none; /* Standard property */
+  background: transparent;
+  /* width: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  background: transparent; */
+}
+
+.range-slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-slider::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ff6f61;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.range-slider::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ff6f61;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-slider::-ms-track {
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.range-slider::-ms-fill-lower {
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.range-slider::-ms-fill-upper {
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.range-slider::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ff6f61;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px; /* Center the thumb on the track */
+}
+
+.range-slider::-ms-tooltip {
+  display: none; /* Hide the default tooltip in IE */
+}
+
+.capacity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.capacity-controls button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.capacity-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.capacity-controls span {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.clear-filters-button {
+  display: block;
+  margin-top: 40px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+  background-color: #55a3f6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.clear-filters-button:hover {
+  background-color: #e53e3e; /* Change to desired hover color */
+  color: white;
+}

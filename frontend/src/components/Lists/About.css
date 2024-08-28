@@ -1,0 +1,56 @@
+/* About page styling */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-items: flex-start; 
+    justify-content: center;
+    height: 100vh;
+    /* text-align: center; */
+    text-align: left; 
+    /* background: #ffffff; */
+    color: #333;
+    /* padding: 20px; */
+    background: #fcf4fb;
+    background-image: url('/src/components/Assets/abt-us.png'); /* Replace with your image path */
+    background-size: cover; 
+    background-position: left top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Optional: Makes the background image fixed */
+}
+
+.about-container h1 {
+    font-size: 36px;
+    margin-bottom: 1px;
+    color: black;
+    margin-left: 40px ;
+    font-weight:bold;
+}
+
+.about-container p {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+    margin: 40px ;
+    align-items: flex-start; 
+    text-align: left; 
+    color: black;
+    font-weight:bold;
+}
+
+.about-container .team {
+    margin-top: 30px;
+    font-weight:bold;
+}
+
+.about-container .team h2 {
+    font-size: 28px;
+    margin-bottom: 1px;
+    color: black;
+    margin-left: 40px ;
+    font-weight:bold;
+}
+
+.about-container .team p {
+    font-size: 16px;
+}

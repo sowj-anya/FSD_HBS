@@ -1,0 +1,36 @@
+/* Card specific styles  */
+.bcolor{
+    background-color: rgb(57, 54, 70) !important;
+}
+.card2 {
+    position: relative;
+    height: 430px !important;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent !important;
+    color: white;
+    border-color: rgb(57, 54, 70) !important;
+    box-shadow: 5px 3px 20px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(57, 54, 70) !important;
+  }
+  
+  .card2 button {
+    border: 2px solid white;
+    background-color: rgb(84, 54, 109);
+  }
+  
+ 
+  .text-bold {
+    font-weight: 600 !important;
+  }
+
+  .card2 img {
+    height: 230px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+    width: 100%;
+  }
+  
+   
